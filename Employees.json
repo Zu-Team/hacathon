@@ -1,0 +1,705 @@
+
+{
+  "employees": [
+    {
+      "id": "EMP-JO-001",
+      "personal_info": { "first_name": "أحمد", "last_name": "الخطيب", "national_id": "198510201234", "date_of_birth": "1985-10-20", "gender": "ذكر", "contact": { "email": "a.alkhatib@jordanbk.jo", "phone": "+962791234567", "address": "شارع المدينة المنورة، تلاع العلي", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مدير فرع", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2010-05-15", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000001234567890123", "device_id": "DEV-JO-789012", "customer_segment": "الأفراد والشركات الصغيرة" },
+      "permissions": { "system_access": ["إدارة حسابات العملاء", "الموافقة على التمويل", "إدارة الموظفين"], "services_access": ["حسابات توفير", "حسابات جارية", "قروض شخصية", "تمويل أعمال"], "approval_limits": { "transaction_approval": 50000, "loan_approval": 150000 } },
+      "performance": { "clients_managed": 150, "portfolio_size": 12000000, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-002",
+      "personal_info": { "first_name": "فاطمة", "last_name": "الزعبي", "national_id": "199208152345", "date_of_birth": "1992-08-15", "gender": "أنثى", "contact": { "email": "f.alzoubi@jordanbk.jo", "phone": "+962788765432", "address": "شارع الجامعة، دوار الداخلية", "branch_city": "إربد" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف أول", "branch_location": "إربد", "management_level": "موظف تنفيذي", "hire_date": "2018-07-22", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009876543210987", "device_id": "DEV-JO-654321", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية", "الاستعلام عن الرصيد"], "services_access": ["حسابات توفير", "حسابات جارية", "خدمات تحويل الأموال"], "approval_limits": { "transaction_approval": 20000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-003",
+      "personal_info": { "first_name": "علي", "last_name": "المصري", "national_id": "198811053456", "date_of_birth": "1988-11-05", "gender": "ذكر", "contact": { "email": "ali.almasri@jordanbk.jo", "phone": "+962777654321", "address": "شارع وصفي التل، خلدا", "branch_city": "عمان" } },
+      "employment_details": { "department": "الخدمات المصرفية للشركات", "position": "مدير علاقات", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2014-02-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000005555444333222", "device_id": "DEV-JO-101112", "customer_segment": "الشركات الكبيرة" },
+      "permissions": { "system_access": ["إدارة محافظ الشركات", "تحليل الائتمان", "تسويق منتجات الخزينة"], "services_access": ["تمويل أعمال", "خطابات اعتماد", "إدارة النقد"], "approval_limits": { "transaction_approval": 100000, "loan_approval": 500000 } },
+      "performance": { "clients_managed": 45, "portfolio_size": 25000000, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-004",
+      "personal_info": { "first_name": "سارة", "last_name": "حدادين", "national_id": "199503254567", "date_of_birth": "1995-03-25", "gender": "أنثى", "contact": { "email": "s.hadaddin@jordanbk.jo", "phone": "+962799876543", "address": "شارع مكة، أم أذينة", "branch_city": "عمان" } },
+      "employment_details": { "department": "خدمة العملاء", "position": "مسؤول خدمة عملاء", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2021-09-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000006677889900112", "device_id": "DEV-JO-131415", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["الاستعلام عن الحسابات", "فتح حسابات جديدة", "إصدار البطاقات"], "services_access": ["حسابات توفير", "حسابات جارية", "بطاقات ائتمانية"], "approval_limits": { "transaction_approval": 2000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.9 }
+    },
+    {
+      "id": "EMP-JO-005",
+      "personal_info": { "first_name": "عمر", "last_name": "الشريف", "national_id": "199001155678", "date_of_birth": "1990-01-15", "gender": "ذكر", "contact": { "email": "omar.sharif@jordanbk.jo", "phone": "+962785556677", "address": "شارع الملك حسين، وسط البلد", "branch_city": "العقبة" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مسؤول علاقات عملاء", "branch_location": "العقبة", "management_level": "موظف تنفيذي", "hire_date": "2017-10-05", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000001122334455667", "device_id": "DEV-JO-161718", "customer_segment": "الأفراد وعملاء مميزون" },
+      "permissions": { "system_access": ["فتح حسابات", "معالجة طلبات القروض"], "services_access": ["حسابات توفير", "حسابات جارية", "قروض شخصية", "بطاقات ائتمانية"], "approval_limits": { "transaction_approval": 10000, "loan_approval": 15000 } },
+      "performance": { "clients_managed": 250, "portfolio_size": 3500000, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-006",
+      "personal_info": { "first_name": "دينا", "last_name": "قاسم", "national_id": "199804106789", "date_of_birth": "1998-04-10", "gender": "أنثى", "contact": { "email": "dina.qasem@jordanbk.jo", "phone": "+962776667788", "address": "شارع الاستقلال، دوار العيادات", "branch_city": "الزرقاء" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "الزرقاء", "management_level": "موظف تنفيذي", "hire_date": "2023-02-12", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009988776655443", "device_id": "DEV-JO-192021", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-007",
+      "personal_info": { "first_name": "محمد", "last_name": "الطراونة", "national_id": "198409057890", "date_of_birth": "1984-09-05", "gender": "ذكر", "contact": { "email": "m.tarawneh@jordanbk.jo", "phone": "+962795554433", "address": "شارع الثورة العربية الكبرى", "branch_city": "الكرك" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مدير فرع", "branch_location": "الكرك", "management_level": "الإدارة الوسطى", "hire_date": "2011-01-25", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000001212323454567", "device_id": "DEV-JO-222324", "customer_segment": "الأفراد والشركات الصغيرة" },
+      "permissions": { "system_access": ["إدارة الحسابات", "الموافقة على القروض", "إدارة الموظفين"], "services_access": ["حسابات توفير", "قروض شخصية", "تمويل أعمال"], "approval_limits": { "transaction_approval": 40000, "loan_approval": 120000 } },
+      "performance": { "clients_managed": 120, "portfolio_size": 8000000, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-008",
+      "personal_info": { "first_name": "لانا", "last_name": "عزام", "national_id": "199107188901", "date_of_birth": "1991-07-18", "gender": "أنثى", "contact": { "email": "lana.azzam@jordanbk.jo", "phone": "+962788889900", "address": "شارع الرابية، الرابية", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الثروات", "position": "مدير علاقات عملاء مميزين", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2016-06-14", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000007878686545432", "device_id": "DEV-JO-252627", "customer_segment": "عملاء مميزون" },
+      "permissions": { "system_access": ["إدارة المحافظ الاستثمارية", "تقديم الاستشارات المالية"], "services_access": ["صناديق استثمارية", "إدارة أصول", "ودائع لأجل"], "approval_limits": { "transaction_approval": 100000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 80, "portfolio_size": 35000000, "customer_satisfaction": 4.9 }
+    },
+    {
+      "id": "EMP-JO-009",
+      "personal_info": { "first_name": "يوسف", "last_name": "النجداوي", "national_id": "198902209012", "date_of_birth": "1989-02-20", "gender": "ذكر", "contact": { "email": "y.najdawi@jordanbk.jo", "phone": "+962772223344", "address": "شارع عبدون، عبدون", "branch_city": "عمان" } },
+      "employment_details": { "department": "تكنولوجيا المعلومات", "position": "مدير أمن المعلومات", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2015-03-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000004343545465654", "device_id": "DEV-JO-282930", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["إدارة أنظمة الحماية", "مراقبة الشبكة", "التحقيق في الحوادث الأمنية"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 5.0 }
+    },
+    {
+      "id": "EMP-JO-010",
+      "personal_info": { "first_name": "هند", "last_name": "جردانة", "national_id": "198310051234", "date_of_birth": "1983-10-05", "gender": "أنثى", "contact": { "email": "h.jardaneh@jordanbk.jo", "phone": "+962791112233", "address": "شارع الأميرة بسمة، جبل عمان", "branch_city": "عمان" } },
+      "employment_details": { "department": "الموارد البشرية", "position": "مدير الموارد البشرية", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2009-05-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000002121434365658", "device_id": "DEV-JO-313233", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["إدارة نظام الموارد البشرية", "إدارة الرواتب", "التوظيف"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-011",
+      "personal_info": { "first_name": "خالد", "last_name": "العرموطي", "national_id": "199906152345", "date_of_birth": "1999-06-15", "gender": "ذكر", "contact": { "email": "k.armouti@jordanbk.jo", "phone": "+962781231231", "address": "شارع الملك فيصل الثاني", "branch_city": "الزرقاء" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "الزرقاء", "management_level": "موظف تنفيذي", "hire_date": "2024-03-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009191818171716", "device_id": "DEV-JO-343536", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.4 }
+    },
+    {
+      "id": "EMP-JO-012",
+      "personal_info": { "first_name": "روان", "last_name": "الشناق", "national_id": "199312013456", "date_of_birth": "1993-12-01", "gender": "أنثى", "contact": { "email": "r.shannaq@jordanbk.jo", "phone": "+962792342342", "address": "شارع القدس", "branch_city": "السلط" } },
+      "employment_details": { "department": "الشؤون القانونية", "position": "مستشار قانوني", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2019-10-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000008282727262625", "device_id": "DEV-JO-373839", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["مراجعة العقود", "متابعة القضايا"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-013",
+      "personal_info": { "first_name": "إبراهيم", "last_name": "الطباع", "national_id": "198602144567", "date_of_birth": "1986-02-14", "gender": "ذكر", "contact": { "email": "i.tabbaa@jordanbk.jo", "phone": "+962773453453", "address": "شارع الأمير محمد، وسط البلد", "branch_city": "عمان" } },
+      "employment_details": { "department": "الخزينة والاستثمار", "position": "متداول عملات", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2012-08-22", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000007373636353534", "device_id": "DEV-JO-404142", "customer_segment": "المؤسسات المالية" },
+      "permissions": { "system_access": ["الوصول لمنصات التداول", "تنفيذ صفقات"], "services_access": ["تداول عملات", "منتجات استثمارية"], "approval_limits": { "transaction_approval": 5000000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 20, "portfolio_size": 0, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-014",
+      "personal_info": { "first_name": "رنا", "last_name": "مهيار", "national_id": "199010305678", "date_of_birth": "1990-10-30", "gender": "أنثى", "contact": { "email": "rana.mahyar@jordanbk.jo", "phone": "+962784564564", "address": "شارع الهاشمي", "branch_city": "مادبا" } },
+      "employment_details": { "department": "التدقيق الداخلي", "position": "مدقق داخلي", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2017-05-15", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000006464545434342", "device_id": "DEV-JO-434445", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["مراجعة السجلات", "الوصول للتقارير"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-015",
+      "personal_info": { "first_name": "ماجد", "last_name": "العمري", "national_id": "199607076789", "date_of_birth": "1996-07-07", "gender": "ذكر", "contact": { "email": "majed.omari@jordanbk.jo", "phone": "+962795675675", "address": "شارع الجاردنز", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة المخاطر والائتمان", "position": "محلل ائتمان", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2020-09-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000005151414131312", "device_id": "DEV-JO-464748", "customer_segment": "الشركات الصغيرة والمتوسطة" },
+      "permissions": { "system_access": ["تحليل البيانات المالية", "إصدار توصيات ائتمانية"], "services_access": ["تمويل أعمال"], "approval_limits": { "transaction_approval": 0, "loan_approval": 50000 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.4 }
+    },
+    {
+      "id": "EMP-JO-016",
+      "personal_info": { "first_name": "زياد", "last_name": "الرفاعي", "national_id": "197905207890", "date_of_birth": "1979-05-20", "gender": "ذكر", "contact": { "email": "ziad.rifai@jordanbk.jo", "phone": "+962796543210", "address": "شارع عبدون", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مدير منطقة", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2006-10-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000004545898912123", "device_id": "DEV-JO-495051", "customer_segment": "جميع الشرائح" },
+      "permissions": { "system_access": ["مراجعة أداء الفروع", "الموافقة على التسهيلات الكبيرة"], "services_access": ["جميع الخدمات المصرفية"], "approval_limits": { "transaction_approval": 200000, "loan_approval": 750000 } },
+      "performance": { "clients_managed": 10, "portfolio_size": 150000000, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-017",
+      "personal_info": { "first_name": "دانا", "last_name": "النابلسي", "national_id": "199411118901", "date_of_birth": "1994-11-11", "gender": "أنثى", "contact": { "email": "dana.nabulsi@jordanbk.jo", "phone": "+962787654321", "address": "شارع دابوق", "branch_city": "عمان" } },
+      "employment_details": { "department": "تكنولوجيا المعلومات", "position": "مطور تطبيقات بنكية", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2019-06-15", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000001717282839394", "device_id": "DEV-JO-525354", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["الوصول لأنظمة التطوير", "إدارة الكود المصدري"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-018",
+      "personal_info": { "first_name": "فارس", "last_name": "حجازي", "national_id": "199901029012", "date_of_birth": "1999-01-02", "gender": "ذكر", "contact": { "email": "fares.hejazi@jordanbk.jo", "phone": "+962778765432", "address": "شارع باريس، اللويبدة", "branch_city": "عمان" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2023-10-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000001818292940405", "device_id": "DEV-JO-555657", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-019",
+      "personal_info": { "first_name": "سلمى", "last_name": "الدباس", "national_id": "198703251234", "date_of_birth": "1987-03-25", "gender": "أنثى", "contact": { "email": "salma.dabbas@jordanbk.jo", "phone": "+962798765432", "address": "شارع الشميساني", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "نائب مدير فرع", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2012-02-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000001919303051516", "device_id": "DEV-JO-585960", "customer_segment": "الأفراد والشركات الصغيرة" },
+      "permissions": { "system_access": ["مراجعة المعاملات", "إدارة عمليات الفرع"], "services_access": ["حسابات توفير", "حسابات جارية", "قروض شخصية"], "approval_limits": { "transaction_approval": 75000, "loan_approval": 75000 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-020",
+      "personal_info": { "first_name": "غسان", "last_name": "المجالي", "national_id": "199308152345", "date_of_birth": "1993-08-15", "gender": "ذكر", "contact": { "email": "g.majali@jordanbk.jo", "phone": "+962788887766", "address": "شارع الحصن", "branch_city": "إربد" } },
+      "employment_details": { "department": "خدمة العملاء", "position": "مسؤول خدمة عملاء", "branch_location": "إربد", "management_level": "موظف تنفيذي", "hire_date": "2020-11-30", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000002020414162627", "device_id": "DEV-JO-616263", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["الاستعلام عن الحسابات", "فتح حسابات جديدة"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 2000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-021",
+      "personal_info": { "first_name": "ريم", "last_name": "أبو رمان", "national_id": "199610103456", "date_of_birth": "1996-10-10", "gender": "أنثى", "contact": { "email": "reem.rumman@jordanbk.jo", "phone": "+962777776655", "address": "شارع البتراء", "branch_city": "العقبة" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "العقبة", "management_level": "موظف تنفيذي", "hire_date": "2022-04-18", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000002121525273738", "device_id": "DEV-JO-646566", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-022",
+      "personal_info": { "first_name": "سامر", "last_name": "الجمل", "national_id": "198806204567", "date_of_birth": "1988-06-20", "gender": "ذكر", "contact": { "email": "samer.jamal@jordanbk.jo", "phone": "+962796665544", "address": "شارع وصفي التل", "branch_city": "عمان" } },
+      "employment_details": { "department": "الامتثال", "position": "ضابط امتثال أول", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2015-01-11", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000002222636384849", "device_id": "DEV-JO-676869", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["مراقبة المعاملات", "إعداد التقارير الرقابية"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-023",
+      "personal_info": { "first_name": "لارا", "last_name": "التميمي", "national_id": "199709185678", "date_of_birth": "1997-09-18", "gender": "أنثى", "contact": { "email": "lara.tamimi@jordanbk.jo", "phone": "+962785554433", "address": "شارع الملك فيصل", "branch_city": "الزرقاء" } },
+      "employment_details": { "department": "الموارد البشرية", "position": "مسؤول شؤون موظفين", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2021-07-21", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000002323747495950", "device_id": "DEV-JO-707172", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["إدارة بيانات الموظفين", "معالجة الإجازات"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-024",
+      "personal_info": { "first_name": "طارق", "last_name": "عارف", "national_id": "198504246789", "date_of_birth": "1985-04-24", "gender": "ذكر", "contact": { "email": "tarek.aref@jordanbk.jo", "phone": "+962775553311", "address": "شارع الأمير محمد", "branch_city": "عمان" } },
+      "employment_details": { "department": "الخدمات المصرفية للشركات", "position": "مدير علاقات أول", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2010-08-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000002424858506061", "device_id": "DEV-JO-737475", "customer_segment": "الشركات الكبيرة" },
+      "permissions": { "system_access": ["إدارة محافظ الشركات الكبرى", "هيكلة التمويل"], "services_access": ["تمويل مشاريع", "خطابات اعتماد", "إدارة نقد"], "approval_limits": { "transaction_approval": 250000, "loan_approval": 1000000 } },
+      "performance": { "clients_managed": 30, "portfolio_size": 50000000, "customer_satisfaction": 4.9 }
+    },
+    {
+      "id": "EMP-JO-025",
+      "personal_info": { "first_name": "ميساء", "last_name": "الخياط", "national_id": "199912127890", "date_of_birth": "1999-12-12", "gender": "أنثى", "contact": { "email": "m.khayyat@jordanbk.jo", "phone": "+962794443322", "address": "شارع عمر المختار", "branch_city": "إربد" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "إربد", "management_level": "موظف تنفيذي", "hire_date": "2024-01-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000002525969617172", "device_id": "DEV-JO-767778", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.3 }
+    },
+    {
+      "id": "EMP-JO-026",
+      "personal_info": { "first_name": "أسامة", "last_name": "سعادة", "national_id": "199107198901", "date_of_birth": "1991-07-19", "gender": "ذكر", "contact": { "email": "osama.saadeh@jordanbk.jo", "phone": "+962783332211", "address": "شارع الجاردنز", "branch_city": "عمان" } },
+      "employment_details": { "department": "تكنولوجيا المعلومات", "position": "مسؤول قاعدة بيانات", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2017-05-14", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000002626070728283", "device_id": "DEV-JO-798081", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["إدارة قواعد البيانات", "النسخ الاحتياطي", "تحسين الأداء"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-027",
+      "personal_info": { "first_name": "هبة", "last_name": "الكايد", "national_id": "199505059012", "date_of_birth": "1995-05-05", "gender": "أنثى", "contact": { "email": "heba.kayed@jordanbk.jo", "phone": "+962791113355", "address": "شارع الملكة رانيا، الجبيهة", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مسؤول علاقات عملاء", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2020-02-02", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000002727181839394", "device_id": "DEV-JO-828384", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["فتح حسابات", "معالجة طلبات القروض"], "services_access": ["حسابات توفير", "قروض شخصية"], "approval_limits": { "transaction_approval": 10000, "loan_approval": 15000 } },
+      "performance": { "clients_managed": 220, "portfolio_size": 2800000, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-028",
+      "personal_info": { "first_name": "عادل", "last_name": "مراد", "national_id": "198701151234", "date_of_birth": "1987-01-15", "gender": "ذكر", "contact": { "email": "adel.murad@jordanbk.jo", "phone": "+962771112244", "address": "شارع الستين", "branch_city": "السلط" } },
+      "employment_details": { "department": "التدقيق الداخلي", "position": "مدقق داخلي أول", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2014-09-09", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000002828292940405", "device_id": "DEV-JO-858687", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["مراجعة السجلات والعمليات", "إعداد تقارير التدقيق"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-029",
+      "personal_info": { "first_name": "رزان", "last_name": "الحديدي", "national_id": "199806162345", "date_of_birth": "1998-06-16", "gender": "أنثى", "contact": { "email": "razan.hadidi@jordanbk.jo", "phone": "+962792223344", "address": "شارع المدينة الطبية", "branch_city": "عمان" } },
+      "employment_details": { "department": "التسويق", "position": "منسق تسويق", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2022-08-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000002929303051516", "device_id": "DEV-JO-888990", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["إدارة محتوى الموقع", "إعداد النشرات البريدية"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.4 }
+    },
+    {
+      "id": "EMP-JO-030",
+      "personal_info": { "first_name": "بشار", "last_name": "القيسي", "national_id": "199012303456", "date_of_birth": "1990-12-30", "gender": "ذكر", "contact": { "email": "bashar.qaisi@jordanbk.jo", "phone": "+962781112233", "address": "شارع الأردن، أبو نصير", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مسؤول علاقات عملاء أول", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2016-03-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000003030414162627", "device_id": "DEV-JO-919293", "customer_segment": "الأفراد وعملاء مميزون" },
+      "permissions": { "system_access": ["فتح حسابات", "معالجة طلبات القروض المعقدة"], "services_access": ["حسابات توفير", "قروض شخصية", "بطاقات ائتمانية"], "approval_limits": { "transaction_approval": 25000, "loan_approval": 25000 } },
+      "performance": { "clients_managed": 300, "portfolio_size": 5000000, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-031",
+      "personal_info": { "first_name": "نادية", "last_name": "العجلوني", "national_id": "198209144567", "date_of_birth": "1982-09-14", "gender": "أنثى", "contact": { "email": "nadia.ajlouni@jordanbk.jo", "phone": "+962793334455", "address": "شارع الحرية", "branch_city": "مادبا" } },
+      "employment_details": { "department": "العمليات المركزية", "position": "رئيس قسم التحويلات", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2007-07-15", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000003131525273738", "device_id": "DEV-JO-949596", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["مراجعة التحويلات الدولية", "إدارة نظام SWIFT"], "services_access": ["خدمات تحويل الأموال"], "approval_limits": { "transaction_approval": 1000000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-032",
+      "personal_info": { "first_name": "جمال", "last_name": "المصري", "national_id": "199704045678", "date_of_birth": "1997-04-04", "gender": "ذكر", "contact": { "email": "jamal.masri@jordanbk.jo", "phone": "+962784445566", "address": "شارع عجلون", "branch_city": "عجلون" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "عجلون", "management_level": "موظف تنفيذي", "hire_date": "2021-02-08", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000003232636384849", "device_id": "DEV-JO-979899", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-033",
+      "personal_info": { "first_name": "آية", "last_name": "الخواجا", "national_id": "199808086789", "date_of_birth": "1998-08-08", "gender": "أنثى", "contact": { "email": "aya.khawaja@jordanbk.jo", "phone": "+962774445566", "address": "شارع الملك طلال", "branch_city": "إربد" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "إربد", "management_level": "موظف تنفيذي", "hire_date": "2023-05-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000003333747495950", "device_id": "DEV-JO-100101", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-034",
+      "personal_info": { "first_name": "وليد", "last_name": "الفاعوري", "national_id": "198311107890", "date_of_birth": "1983-11-10", "gender": "ذكر", "contact": { "email": "w.faouri@jordanbk.jo", "phone": "+962795556677", "address": "شارع الجبيهة", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مدير فرع", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2009-12-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000003434858506061", "device_id": "DEV-JO-102103", "customer_segment": "الأفراد والشركات الصغيرة" },
+      "permissions": { "system_access": ["إدارة الحسابات", "الموافقة على القروض"], "services_access": ["حسابات توفير", "قروض شخصية", "تمويل أعمال"], "approval_limits": { "transaction_approval": 50000, "loan_approval": 150000 } },
+      "performance": { "clients_managed": 135, "portfolio_size": 11500000, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-035",
+      "personal_info": { "first_name": "بيان", "last_name": "العبادي", "national_id": "199107178901", "date_of_birth": "1991-07-17", "gender": "أنثى", "contact": { "email": "bayan.abadi@jordanbk.jo", "phone": "+962785556677", "address": "شارع الجامعة", "branch_city": "الكرك" } },
+      "employment_details": { "department": "الشؤون القانونية", "position": "مستشار قانوني أول", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2016-10-15", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000003535969617172", "device_id": "DEV-JO-104105", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["مراجعة العقود الكبرى", "متابعة القضايا الاستراتيجية"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.9 }
+    },
+    {
+      "id": "EMP-JO-036",
+      "personal_info": { "first_name": "سيف", "last_name": "النجار", "national_id": "199801209012", "date_of_birth": "1998-01-20", "gender": "ذكر", "contact": { "email": "saif.najjar@jordanbk.jo", "phone": "+962776667788", "address": "شارع مأدبا", "branch_city": "مادبا" } },
+      "employment_details": { "department": "خدمة العملاء", "position": "مسؤول خدمة عملاء", "branch_location": "مادبا", "management_level": "موظف تنفيذي", "hire_date": "2022-06-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000003636070728283", "device_id": "DEV-JO-106107", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["الاستعلام عن الحسابات", "فتح حسابات جديدة"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 2000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.4 }
+    },
+    {
+      "id": "EMP-JO-037",
+      "personal_info": { "first_name": "لجين", "last_name": "الخالدي", "national_id": "199909091234", "date_of_birth": "1999-09-09", "gender": "أنثى", "contact": { "email": "lujain.khaldi@jordanbk.jo", "phone": "+962796667788", "address": "شارع عبد الحميد شرف", "branch_city": "عمان" } },
+      "employment_details": { "department": "التسويق", "position": "منسق فعاليات", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2023-04-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000003737181839394", "device_id": "DEV-JO-108109", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["تنظيم الفعاليات", "التواصل مع الموردين"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-038",
+      "personal_info": { "first_name": "معاذ", "last_name": "العزام", "national_id": "199303132345", "date_of_birth": "1993-03-13", "gender": "ذكر", "contact": { "email": "moath.azzam@jordanbk.jo", "phone": "+962786667788", "address": "شارع الاستقلال", "branch_city": "الزرقاء" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف أول", "branch_location": "الزرقاء", "management_level": "موظف تنفيذي", "hire_date": "2018-09-17", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000003838292940405", "device_id": "DEV-JO-110111", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية", "الاستعلام عن الرصيد"], "services_access": ["حسابات توفير", "حسابات جارية", "خدمات تحويل الأموال"], "approval_limits": { "transaction_approval": 20000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-039",
+      "personal_info": { "first_name": "حنين", "last_name": "الحداد", "national_id": "198902103456", "date_of_birth": "1989-02-10", "gender": "أنثى", "contact": { "email": "haneen.hadad@jordanbk.jo", "phone": "+962776667788", "address": "شارع الشريف ناصر بن جميل", "branch_city": "عمان" } },
+      "employment_details": { "department": "التدقيق الداخلي", "position": "مدقق داخلي أول", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2014-07-07", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000003939303051516", "device_id": "DEV-JO-112113", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["مراجعة السجلات والعمليات", "إعداد تقارير التدقيق"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-040",
+      "personal_info": { "first_name": "رشيد", "last_name": "قويدر", "national_id": "197601014567", "date_of_birth": "1976-01-01", "gender": "ذكر", "contact": { "email": "rasheed.quider@jordanbk.jo", "phone": "+962796667788", "address": "شارع وادي صقرة", "branch_city": "عمان" } },
+      "employment_details": { "department": "الخدمات المصرفية للشركات", "position": "رئيس قسم تمويل الشركات", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2003-03-03", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000004040414162627", "device_id": "DEV-JO-114115", "customer_segment": "الشركات الكبيرة" },
+      "permissions": { "system_access": ["الموافقة النهائية على التسهيلات", "إدارة فريق المدراء"], "services_access": ["تمويل مشاريع", "تمويل تجاري"], "approval_limits": { "transaction_approval": 500000, "loan_approval": 2500000 } },
+      "performance": { "clients_managed": 15, "portfolio_size": 80000000, "customer_satisfaction": 4.9 }
+    },
+    {
+      "id": "EMP-JO-041",
+      "personal_info": { "first_name": "إيمان", "last_name": "الزبن", "national_id": "199708155678", "date_of_birth": "1997-08-15", "gender": "أنثى", "contact": { "email": "iman.zaben@jordanbk.jo", "phone": "+962788123456", "address": "شارع اليرموك", "branch_city": "إربد" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "إربد", "management_level": "موظف تنفيذي", "hire_date": "2022-11-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000004141525273738", "device_id": "DEV-JO-116117", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.4 }
+    },
+    {
+      "id": "EMP-JO-042",
+      "personal_info": { "first_name": "حسن", "last_name": "العجلوني", "national_id": "199102186789", "date_of_birth": "1991-02-18", "gender": "ذكر", "contact": { "email": "hasan.ajlouni@jordanbk.jo", "phone": "+962798765432", "address": "شارع وصفي التل", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مسؤول علاقات عملاء", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2017-08-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000004242636384849", "device_id": "DEV-JO-118119", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["فتح حسابات", "معالجة طلبات القروض"], "services_access": ["حسابات توفير", "قروض شخصية"], "approval_limits": { "transaction_approval": 10000, "loan_approval": 15000 } },
+      "performance": { "clients_managed": 230, "portfolio_size": 3100000, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-043",
+      "personal_info": { "first_name": "أمل", "last_name": "الكسواني", "national_id": "198806067890", "date_of_birth": "1988-06-06", "gender": "أنثى", "contact": { "email": "amal.kaswani@jordanbk.jo", "phone": "+962778765432", "address": "شارع الثقافة", "branch_city": "عمان" } },
+      "employment_details": { "department": "الموارد البشرية", "position": "أخصائي تدريب وتطوير", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2015-04-14", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000004343747495950", "device_id": "DEV-JO-120121", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["إدارة نظام التدريب", "تقييم الاحتياجات التدريبية"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-044",
+      "personal_info": { "first_name": "فادي", "last_name": "البشارات", "national_id": "199509258901", "date_of_birth": "1995-09-25", "gender": "ذكر", "contact": { "email": "fadi.bisharat@jordanbk.jo", "phone": "+962798765432", "address": "شارع إيليا أبو ماضي", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة المخاطر", "position": "محلل مخاطر تشغيلية", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2020-10-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000004444858506061", "device_id": "DEV-JO-122123", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["تحليل تقارير الحوادث", "تحديث سجل المخاطر"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-045",
+      "personal_info": { "first_name": "نور", "last_name": "الشوبكي", "national_id": "199011309012", "date_of_birth": "1990-11-30", "gender": "أنثى", "contact": { "email": "nour.shobaki@jordanbk.jo", "phone": "+962788765432", "address": "شارع الملكة نور", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "نائب مدير فرع", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2016-08-08", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000004545969617172", "device_id": "DEV-JO-124125", "customer_segment": "الأفراد والشركات الصغيرة" },
+      "permissions": { "system_access": ["مراجعة المعاملات", "إدارة عمليات الفرع"], "services_access": ["حسابات توفير", "حسابات جارية", "قروض شخصية"], "approval_limits": { "transaction_approval": 75000, "loan_approval": 75000 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-046",
+      "personal_info": { "first_name": "رامي", "last_name": "الخضري", "national_id": "199703151234", "date_of_birth": "1997-03-15", "gender": "ذكر", "contact": { "email": "rami.khudari@jordanbk.jo", "phone": "+962778765432", "address": "شارع القلعة", "branch_city": "الكرك" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "الكرك", "management_level": "موظف تنفيذي", "hire_date": "2021-12-12", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000004646070728283", "device_id": "DEV-JO-126127", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.3 }
+    },
+    {
+      "id": "EMP-JO-047",
+      "personal_info": { "first_name": "أريج", "last_name": "الصالح", "national_id": "199401012345", "date_of_birth": "1994-01-01", "gender": "أنثى", "contact": { "email": "areej.saleh@jordanbk.jo", "phone": "+962798765432", "address": "شارع البستان", "branch_city": "السلط" } },
+      "employment_details": { "department": "خدمة العملاء", "position": "مسؤول خدمة عملاء أول", "branch_location": "السلط", "management_level": "موظف تنفيذي", "hire_date": "2019-01-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000004747181839394", "device_id": "DEV-JO-128129", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["الاستعلام عن الحسابات", "حل الشكاوى المعقدة"], "services_access": ["حسابات توفير", "حسابات جارية", "بطاقات ائتمانية"], "approval_limits": { "transaction_approval": 5000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-048",
+      "personal_info": { "first_name": "بسام", "last_name": "البيطار", "national_id": "198508203456", "date_of_birth": "1985-08-20", "gender": "ذكر", "contact": { "email": "bassam.bitar@jordanbk.jo", "phone": "+962788765432", "address": "شارع الواحة", "branch_city": "العقبة" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مدير فرع", "branch_location": "العقبة", "management_level": "الإدارة الوسطى", "hire_date": "2011-05-11", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000004848292940405", "device_id": "DEV-JO-130131", "customer_segment": "الأفراد والشركات الصغيرة" },
+      "permissions": { "system_access": ["إدارة الحسابات", "الموافقة على القروض"], "services_access": ["حسابات توفير", "قروض شخصية", "تمويل أعمال"], "approval_limits": { "transaction_approval": 50000, "loan_approval": 150000 } },
+      "performance": { "clients_managed": 140, "portfolio_size": 10500000, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-049",
+      "personal_info": { "first_name": "سوسن", "last_name": "مهدي", "national_id": "198110104567", "date_of_birth": "1981-10-10", "gender": "أنثى", "contact": { "email": "sawsan.mahdi@jordanbk.jo", "phone": "+962778765432", "address": "شارع زهران", "branch_city": "عمان" } },
+      "employment_details": { "department": "العمليات المركزية", "position": "مدير العمليات", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2005-09-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000004949303051516", "device_id": "DEV-JO-132133", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["الإشراف على العمليات الخلفية", "الموافقة على التسويات"], "services_access": [], "approval_limits": { "transaction_approval": 5000000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.9 }
+    },
+    {
+      "id": "EMP-JO-050",
+      "personal_info": { "first_name": "حاتم", "last_name": "كنعان", "national_id": "199611115678", "date_of_birth": "1996-11-11", "gender": "ذكر", "contact": { "email": "hatem.kanaan@jordanbk.jo", "phone": "+962798765432", "address": "شارع صلاح الدين", "branch_city": "عجلون" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "عجلون", "management_level": "موظف تنفيذي", "hire_date": "2020-07-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000005050414162627", "device_id": "DEV-JO-134135", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-051",
+      "personal_info": { "first_name": "لينا", "last_name": "حداد", "national_id": "199305206789", "date_of_birth": "1993-05-20", "gender": "أنثى", "contact": { "email": "lina.hadad@jordanbk.jo", "phone": "+962788112233", "address": "شارع الرينبو، جبل عمان", "branch_city": "عمان" } },
+      "employment_details": { "department": "تكنولوجيا المعلومات", "position": "محلل نظم", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2018-03-12", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000005151525273738", "device_id": "DEV-JO-136137", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["تحليل متطلبات الأنظمة", "تصميم الوثائق الوظيفية"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-052",
+      "personal_info": { "first_name": "كريم", "last_name": "العموش", "national_id": "198710157890", "date_of_birth": "1987-10-15", "gender": "ذكر", "contact": { "email": "karim.amoush@jordanbk.jo", "phone": "+962799223344", "address": "شارع البادية", "branch_city": "معان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مسؤول علاقات عملاء أول", "branch_location": "معان", "management_level": "موظف تنفيذي", "hire_date": "2013-09-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000005252636384849", "device_id": "DEV-JO-138139", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["فتح حسابات", "معالجة طلبات القروض المعقدة"], "services_access": ["حسابات توفير", "قروض شخصية"], "approval_limits": { "transaction_approval": 25000, "loan_approval": 25000 } },
+      "performance": { "clients_managed": 280, "portfolio_size": 4200000, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-053",
+      "personal_info": { "first_name": "فرح", "last_name": "القاسم", "national_id": "199702288901", "date_of_birth": "1997-02-28", "gender": "أنثى", "contact": { "email": "farah.qasem@jordanbk.jo", "phone": "+962779334455", "address": "شارع القدس", "branch_city": "الزرقاء" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "الزرقاء", "management_level": "موظف تنفيذي", "hire_date": "2022-08-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000005353747495950", "device_id": "DEV-JO-140141", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-054",
+      "personal_info": { "first_name": "مهند", "last_name": "السيد", "national_id": "198204129012", "date_of_birth": "1982-04-12", "gender": "ذكر", "contact": { "email": "muhanad.sayed@jordanbk.jo", "phone": "+962799445566", "address": "شارع الملك حسين", "branch_city": "إربد" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مدير فرع", "branch_location": "إربد", "management_level": "الإدارة الوسطى", "hire_date": "2008-01-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000005454858506061", "device_id": "DEV-JO-142143", "customer_segment": "الأفراد والشركات الصغيرة" },
+      "permissions": { "system_access": ["إدارة الحسابات", "الموافقة على القروض"], "services_access": ["حسابات توفير", "قروض شخصية", "تمويل أعمال"], "approval_limits": { "transaction_approval": 50000, "loan_approval": 150000 } },
+      "performance": { "clients_managed": 160, "portfolio_size": 13000000, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-055",
+      "personal_info": { "first_name": "غادة", "last_name": "البرقاوي", "national_id": "199308101234", "date_of_birth": "1993-08-10", "gender": "أنثى", "contact": { "email": "ghada.barqawi@jordanbk.jo", "phone": "+962789556677", "address": "شارع فلسطين", "branch_city": "عمان" } },
+      "employment_details": { "department": "الامتثال", "position": "ضابط امتثال", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2019-11-18", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000005555969617172", "device_id": "DEV-JO-144145", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["مراقبة المعاملات", "إعداد التقارير"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-056",
+      "personal_info": { "first_name": "ناصر", "last_name": "البدور", "national_id": "199812012345", "date_of_birth": "1998-12-01", "gender": "ذكر", "contact": { "email": "naser.bdour@jordanbk.jo", "phone": "+962779667788", "address": "شارع الأمير شاكر بن زيد", "branch_city": "عمان" } },
+      "employment_details": { "department": "خدمة العملاء", "position": "مسؤول خدمة عملاء", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2023-01-15", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000005656070728283", "device_id": "DEV-JO-146147", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["الاستعلام عن الحسابات", "فتح حسابات جديدة"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 2000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-057",
+      "personal_info": { "first_name": "آلاء", "last_name": "حمودة", "national_id": "199003033456", "date_of_birth": "1990-03-03", "gender": "أنثى", "contact": { "email": "alaa.hammoudeh@jordanbk.jo", "phone": "+962799778899", "address": "شارع الرابية", "branch_city": "عمان" } },
+      "employment_details": { "department": "الخدمات المصرفية للشركات", "position": "مدير علاقات", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2016-02-22", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000005757181839394", "device_id": "DEV-JO-148149", "customer_segment": "الشركات الصغيرة والمتوسطة" },
+      "permissions": { "system_access": ["إدارة محافظ الشركات", "تحليل الائتمان"], "services_access": ["تمويل أعمال", "خطابات اعتماد"], "approval_limits": { "transaction_approval": 80000, "loan_approval": 300000 } },
+      "performance": { "clients_managed": 60, "portfolio_size": 18000000, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-058",
+      "personal_info": { "first_name": "سليمان", "last_name": "الحدادين", "national_id": "199507144567", "date_of_birth": "1995-07-14", "gender": "ذكر", "contact": { "email": "sulaiman.hadaddin@jordanbk.jo", "phone": "+962789889900", "address": "شارع السياحة", "branch_city": "البتراء" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف أول", "branch_location": "البتراء", "management_level": "موظف تنفيذي", "hire_date": "2019-09-09", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000005858292940405", "device_id": "DEV-JO-150151", "customer_segment": "الأفراد والسياح" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية", "صرف عملات"], "services_access": ["حسابات توفير", "تحويل أموال", "صرف عملات"], "approval_limits": { "transaction_approval": 25000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-059",
+      "personal_info": { "first_name": "نهى", "last_name": "الحديد", "national_id": "198401205678", "date_of_birth": "1984-01-20", "gender": "أنثى", "contact": { "email": "noha.hadid@jordanbk.jo", "phone": "+962779998877", "address": "شارع السعادة", "branch_city": "السلط" } },
+      "employment_details": { "department": "التدقيق الداخلي", "position": "مدير تدقيق", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2010-06-14", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000005959303051516", "device_id": "DEV-JO-152153", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["الإشراف على مهام التدقيق", "رفع التقارير لمجلس الإدارة"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.9 }
+    },
+    {
+      "id": "EMP-JO-060",
+      "personal_info": { "first_name": "علاء", "last_name": "الحوراني", "national_id": "199906306789", "date_of_birth": "1999-06-30", "gender": "ذكر", "contact": { "email": "alaa.hourani@jordanbk.jo", "phone": "+962799887766", "address": "شارع الشونة", "branch_city": "الشونة الجنوبية" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "الشونة الجنوبية", "management_level": "موظف تنفيذي", "hire_date": "2024-02-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000006060414162627", "device_id": "DEV-JO-154155", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.2 }
+    },
+    {
+      "id": "EMP-JO-061",
+      "personal_info": { "first_name": "هديل", "last_name": "القيسي", "national_id": "198711117890", "date_of_birth": "1987-11-11", "gender": "أنثى", "contact": { "email": "hadeel.qaisi@jordanbk.jo", "phone": "+962788776655", "address": "شارع الجاردنز", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الثروات", "position": "مدير علاقات عملاء مميزين", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2012-04-16", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000006161525273738", "device_id": "DEV-JO-156157", "customer_segment": "عملاء مميزون" },
+      "permissions": { "system_access": ["إدارة المحافظ الاستثمارية", "تقديم الاستشارات"], "services_access": ["صناديق استثمارية", "إدارة أصول"], "approval_limits": { "transaction_approval": 100000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 75, "portfolio_size": 32000000, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-062",
+      "personal_info": { "first_name": "شادي", "last_name": "البنا", "national_id": "199408228901", "date_of_birth": "1994-08-22", "gender": "ذكر", "contact": { "email": "shadi.banna@jordanbk.jo", "phone": "+962798776655", "address": "شارع المفرق", "branch_city": "المفرق" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مسؤول علاقات عملاء", "branch_location": "المفرق", "management_level": "موظف تنفيذي", "hire_date": "2019-05-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000006262636384849", "device_id": "DEV-JO-158159", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["فتح حسابات", "معالجة طلبات القروض"], "services_access": ["حسابات توفير", "قروض شخصية"], "approval_limits": { "transaction_approval": 10000, "loan_approval": 15000 } },
+      "performance": { "clients_managed": 210, "portfolio_size": 2500000, "customer_satisfaction": 4.4 }
+    },
+    {
+      "id": "EMP-JO-063",
+      "personal_info": { "first_name": "رغد", "last_name": "مراد", "national_id": "199903109012", "date_of_birth": "1999-03-10", "gender": "أنثى", "contact": { "email": "raghad.murad@jordanbk.jo", "phone": "+962778776655", "address": "شارع معان", "branch_city": "معان" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "معان", "management_level": "موظف تنفيذي", "hire_date": "2023-08-14", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000006363747495950", "device_id": "DEV-JO-160161", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-064",
+      "personal_info": { "first_name": "مراد", "last_name": "الخطيب", "national_id": "198006011234", "date_of_birth": "1980-06-01", "gender": "ذكر", "contact": { "email": "murad.khatib@jordanbk.jo", "phone": "+962799887766", "address": "شارع مكة", "branch_city": "عمان" } },
+      "employment_details": { "department": "الخزينة والاستثمار", "position": "مدير الخزينة", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2005-02-15", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000006464858506061", "device_id": "DEV-JO-162163", "customer_segment": "المؤسسات المالية" },
+      "permissions": { "system_access": ["إدارة استثمارات البنك", "إدارة السيولة"], "services_access": ["تداول عملات", "استثمارات"], "approval_limits": { "transaction_approval": 10000000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 10, "portfolio_size": 0, "customer_satisfaction": 5.0 }
+    },
+    {
+      "id": "EMP-JO-065",
+      "personal_info": { "first_name": "سناء", "last_name": "النجار", "national_id": "199209152345", "date_of_birth": "1992-09-15", "gender": "أنثى", "contact": { "email": "sanaa.najjar@jordanbk.jo", "phone": "+962788887766", "address": "شارع الجامعة", "branch_city": "إربد" } },
+      "employment_details": { "department": "إدارة المخاطر", "position": "محلل ائتمان أول", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2017-06-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000006565969617172", "device_id": "DEV-JO-164165", "customer_segment": "الشركات الكبيرة" },
+      "permissions": { "system_access": ["تحليل الائتمان المعقد", "تدريب المحللين"], "services_access": ["تمويل أعمال"], "approval_limits": { "transaction_approval": 0, "loan_approval": 200000 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-066",
+      "personal_info": { "first_name": "يزن", "last_name": "صلاح", "national_id": "199908103456", "date_of_birth": "1999-08-10", "gender": "ذكر", "contact": { "email": "yazan.salah@jordanbk.jo", "phone": "+962777887766", "address": "شارع الكنائس", "branch_city": "مادبا" } },
+      "employment_details": { "department": "خدمة العملاء", "position": "مسؤول خدمة عملاء", "branch_location": "مادبا", "management_level": "موظف تنفيذي", "hire_date": "2023-03-22", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000006666070728283", "device_id": "DEV-JO-166167", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["الاستعلام عن الحسابات", "فتح حسابات جديدة"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 2000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-067",
+      "personal_info": { "first_name": "تالا", "last_name": "الجراح", "national_id": "198904144567", "date_of_birth": "1989-04-14", "gender": "أنثى", "contact": { "email": "tala.jarrah@jordanbk.jo", "phone": "+962799998877", "address": "شارع التخصصي", "branch_city": "عمان" } },
+      "employment_details": { "department": "التسويق", "position": "مدير تسويق", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2015-01-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000006767181839394", "device_id": "DEV-JO-168169", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["إدارة ميزانية التسويق", "إدارة الحملات الإعلانية"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-068",
+      "personal_info": { "first_name": "إياد", "last_name": "أبو الراغب", "national_id": "199406255678", "date_of_birth": "1994-06-25", "gender": "ذكر", "contact": { "email": "eyad.ragheb@jordanbk.jo", "phone": "+962788998877", "address": "شارع العقبة", "branch_city": "معان" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف أول", "branch_location": "معان", "management_level": "موظف تنفيذي", "hire_date": "2018-12-12", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000006868292940405", "device_id": "DEV-JO-170171", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية", "الاستعلام عن الرصيد"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 20000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-069",
+      "personal_info": { "first_name": "جنى", "last_name": "العمري", "national_id": "198612126789", "date_of_birth": "1986-12-12", "gender": "أنثى", "contact": { "email": "jana.omari@jordanbk.jo", "phone": "+962778998877", "address": "شارع زهران", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مدير منطقة", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2010-10-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000006969303051516", "device_id": "DEV-JO-172173", "customer_segment": "جميع الشرائح" },
+      "permissions": { "system_access": ["مراجعة أداء الفروع", "الموافقة على التسهيلات"], "services_access": ["جميع الخدمات المصرفية"], "approval_limits": { "transaction_approval": 250000, "loan_approval": 800000 } },
+      "performance": { "clients_managed": 12, "portfolio_size": 180000000, "customer_satisfaction": 4.9 }
+    },
+    {
+      "id": "EMP-JO-070",
+      "personal_info": { "first_name": "عامر", "last_name": "الشريف", "national_id": "199705057890", "date_of_birth": "1997-05-05", "gender": "ذكر", "contact": { "email": "amer.sharif@jordanbk.jo", "phone": "+962798998877", "address": "شارع سينما البتراء", "branch_city": "إربد" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "إربد", "management_level": "موظف تنفيذي", "hire_date": "2022-09-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000007070414162627", "device_id": "DEV-JO-174175", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.4 }
+    },
+    {
+      "id": "EMP-JO-071",
+      "personal_info": { "first_name": "ميسون", "last_name": "الفايز", "national_id": "198502208901", "date_of_birth": "1985-02-20", "gender": "أنثى", "contact": { "email": "maison.fayez@jordanbk.jo", "phone": "+962788888888", "address": "شارع عرار", "branch_city": "عمان" } },
+      "employment_details": { "department": "الشؤون القانونية", "position": "مدير الشؤون القانونية", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2011-08-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000007171525273738", "device_id": "DEV-JO-176177", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["الإشراف على القضايا", "مراجعة العقود الاستراتيجية"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.9 }
+    },
+    {
+      "id": "EMP-JO-072",
+      "personal_info": { "first_name": "رياض", "last_name": "الشوبكي", "national_id": "199307079012", "date_of_birth": "1993-07-07", "gender": "ذكر", "contact": { "email": "riyad.shobaki@jordanbk.jo", "phone": "+962798888888", "address": "شارع الطفيلة", "branch_city": "الطفيلة" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مسؤول علاقات عملاء", "branch_location": "الطفيلة", "management_level": "موظف تنفيذي", "hire_date": "2018-02-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000007272636384849", "device_id": "DEV-JO-178179", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["فتح حسابات", "معالجة طلبات القروض"], "services_access": ["حسابات توفير", "قروض شخصية"], "approval_limits": { "transaction_approval": 10000, "loan_approval": 15000 } },
+      "performance": { "clients_managed": 190, "portfolio_size": 2200000, "customer_satisfaction": 4.3 }
+    },
+    {
+      "id": "EMP-JO-073",
+      "personal_info": { "first_name": "ديما", "last_name": "حجازي", "national_id": "199803251234", "date_of_birth": "1998-03-25", "gender": "أنثى", "contact": { "email": "dima.hejazi@jordanbk.jo", "phone": "+962778888888", "address": "شارع عبدون الشمالي", "branch_city": "عمان" } },
+      "employment_details": { "department": "الموارد البشرية", "position": "أخصائي توظيف", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2022-05-15", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000007373747495950", "device_id": "DEV-JO-180181", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["فحص السير الذاتية", "إجراء المقابلات"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-074",
+      "personal_info": { "first_name": "عصام", "last_name": "الزعبي", "national_id": "197908182345", "date_of_birth": "1979-08-18", "gender": "ذكر", "contact": { "email": "issam.zoubi@jordanbk.jo", "phone": "+962798888888", "address": "شارع الملك عبد الله الأول", "branch_city": "إربد" } },
+      "employment_details": { "department": "تكنولوجيا المعلومات", "position": "مدير البنية التحتية", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2007-11-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000007474858506061", "device_id": "DEV-JO-182183", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["إدارة الخوادم والشبكات", "إدارة مراكز البيانات"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-075",
+      "personal_info": { "first_name": "هيا", "last_name": "المومني", "national_id": "199402103456", "date_of_birth": "1994-02-10", "gender": "أنثى", "contact": { "email": "haya.momani@jordanbk.jo", "phone": "+962788888888", "address": "شارع الأميرة بسمة", "branch_city": "عمان" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف أول", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2019-07-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000007575969617172", "device_id": "DEV-JO-184185", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية", "الاستعلام عن الرصيد"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 20000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-076",
+      "personal_info": { "first_name": "لؤي", "last_name": "الجبالي", "national_id": "199709204567", "date_of_birth": "1997-09-20", "gender": "ذكر", "contact": { "email": "luay.jabali@jordanbk.jo", "phone": "+962777777777", "address": "شارع عين غزال", "branch_city": "السلط" } },
+      "employment_details": { "department": "خدمة العملاء", "position": "مسؤول خدمة عملاء", "branch_location": "السلط", "management_level": "موظف تنفيذي", "hire_date": "2022-01-22", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000007676070728283", "device_id": "DEV-JO-186187", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["الاستعلام عن الحسابات", "فتح حسابات جديدة"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 2000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-077",
+      "personal_info": { "first_name": "أماني", "last_name": "الحدادين", "national_id": "198811225678", "date_of_birth": "1988-11-22", "gender": "أنثى", "contact": { "email": "amani.hadaddin@jordanbk.jo", "phone": "+962797777777", "address": "شارع الثقافة", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "نائب مدير فرع", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2014-04-14", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000007777181839394", "device_id": "DEV-JO-188189", "customer_segment": "الأفراد والشركات الصغيرة" },
+      "permissions": { "system_access": ["مراجعة المعاملات", "إدارة عمليات الفرع"], "services_access": ["حسابات توفير", "قروض شخصية"], "approval_limits": { "transaction_approval": 75000, "loan_approval": 75000 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-078",
+      "personal_info": { "first_name": "مروان", "last_name": "شاهين", "national_id": "199201306789", "date_of_birth": "1992-01-30", "gender": "ذكر", "contact": { "email": "marwan.shaheen@jordanbk.jo", "phone": "+962787777777", "address": "شارع الخالدي", "branch_city": "عمان" } },
+      "employment_details": { "department": "الخدمات المصرفية للشركات", "position": "مدير علاقات", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2017-07-17", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000007878292940405", "device_id": "DEV-JO-190191", "customer_segment": "الشركات المتوسطة" },
+      "permissions": { "system_access": ["إدارة محافظ الشركات", "تحليل الائتمان"], "services_access": ["تمويل أعمال", "خطابات اعتماد"], "approval_limits": { "transaction_approval": 90000, "loan_approval": 400000 } },
+      "performance": { "clients_managed": 55, "portfolio_size": 22000000, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-079",
+      "personal_info": { "first_name": "ريما", "last_name": "سالم", "national_id": "198307157890", "date_of_birth": "1983-07-15", "gender": "أنثى", "contact": { "email": "rima.salem@jordanbk.jo", "phone": "+962777777777", "address": "شارع صلاح الدين", "branch_city": "إربد" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مدير فرع", "branch_location": "إربد", "management_level": "الإدارة الوسطى", "hire_date": "2009-09-09", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000007979303051516", "device_id": "DEV-JO-192193", "customer_segment": "الأفراد والشركات الصغيرة" },
+      "permissions": { "system_access": ["إدارة الحسابات", "الموافقة على القروض"], "services_access": ["حسابات توفير", "قروض شخصية", "تمويل أعمال"], "approval_limits": { "transaction_approval": 50000, "loan_approval": 150000 } },
+      "performance": { "clients_managed": 170, "portfolio_size": 14000000, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-080",
+      "personal_info": { "first_name": "سامي", "last_name": "الطراونة", "national_id": "199808088901", "date_of_birth": "1998-08-08", "gender": "ذكر", "contact": { "email": "sami.tarawneh@jordanbk.jo", "phone": "+962797777777", "address": "شارع الملك غازي", "branch_city": "العقبة" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "العقبة", "management_level": "موظف تنفيذي", "hire_date": "2023-06-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000008080414162627", "device_id": "DEV-JO-194195", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.4 }
+    },
+    {
+      "id": "EMP-JO-081",
+      "personal_info": { "first_name": "سحر", "last_name": "نمر", "national_id": "199010109012", "date_of_birth": "1990-10-10", "gender": "أنثى", "contact": { "email": "sahar.nimer@jordanbk.jo", "phone": "+962788665544", "address": "شارع الحصن", "branch_city": "إربد" } },
+      "employment_details": { "department": "إدارة المخاطر", "position": "محلل ائتمان", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2016-05-15", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000008181525273738", "device_id": "DEV-JO-196197", "customer_segment": "الشركات الصغيرة" },
+      "permissions": { "system_access": ["تحليل البيانات المالية", "إصدار توصيات"], "services_access": ["تمويل أعمال"], "approval_limits": { "transaction_approval": 0, "loan_approval": 40000 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-082",
+      "personal_info": { "first_name": "تامر", "last_name": "الدباس", "national_id": "199511111234", "date_of_birth": "1995-11-11", "gender": "ذكر", "contact": { "email": "tamer.dabbas@jordanbk.jo", "phone": "+962798665544", "address": "شارع عبدون", "branch_city": "عمان" } },
+      "employment_details": { "department": "تكنولوجيا المعلومات", "position": "مهندس أمن سيبراني", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2020-08-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000008282636384849", "device_id": "DEV-JO-198199", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["إدارة أنظمة الحماية", "مراقبة التهديدات"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-083",
+      "personal_info": { "first_name": "نجوى", "last_name": "قاسم", "national_id": "198409092345", "date_of_birth": "1984-09-09", "gender": "أنثى", "contact": { "email": "najwa.qasem@jordanbk.jo", "phone": "+962778665544", "address": "شارع فؤاد الخطيب", "branch_city": "عمان" } },
+      "employment_details": { "department": "العمليات المركزية", "position": "رئيس قسم المقاصة", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2009-02-02", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000008383747495950", "device_id": "DEV-JO-200201", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["الإشراف على نظام المقاصة", "حل النزاعات"], "services_access": [], "approval_limits": { "transaction_approval": 2000000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-084",
+      "personal_info": { "first_name": "فراس", "last_name": "عقل", "national_id": "199901013456", "date_of_birth": "1999-01-01", "gender": "ذكر", "contact": { "email": "firas.aqel@jordanbk.jo", "phone": "+962798665544", "address": "شارع مكة", "branch_city": "عمان" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2023-11-15", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000008484858506061", "device_id": "DEV-JO-202203", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.3 }
+    },
+    {
+      "id": "EMP-JO-085",
+      "personal_info": { "first_name": "إيناس", "last_name": "الشناق", "national_id": "199106204567", "date_of_birth": "1991-06-20", "gender": "أنثى", "contact": { "email": "inas.shannaq@jordanbk.jo", "phone": "+962788665544", "address": "شارع الملكة زين الشرف", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مسؤول علاقات عملاء أول", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2015-10-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000008585969617172", "device_id": "DEV-JO-204205", "customer_segment": "عملاء مميزون" },
+      "permissions": { "system_access": ["فتح حسابات", "معالجة طلبات القروض المعقدة"], "services_access": ["حسابات توفير", "قروض شخصية", "بطاقات ائتمانية"], "approval_limits": { "transaction_approval": 30000, "loan_approval": 30000 } },
+      "performance": { "clients_managed": 320, "portfolio_size": 6000000, "customer_satisfaction": 4.9 }
+    },
+    {
+      "id": "EMP-JO-086",
+      "personal_info": { "first_name": "مازن", "last_name": "الصالح", "national_id": "199703035678", "date_of_birth": "1997-03-03", "gender": "ذكر", "contact": { "email": "mazen.saleh@jordanbk.jo", "phone": "+962778665544", "address": "شارع وصفي التل", "branch_city": "إربد" } },
+      "employment_details": { "department": "خدمة العملاء", "position": "مسؤول خدمة عملاء", "branch_location": "إربد", "management_level": "موظف تنفيذي", "hire_date": "2021-09-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000008686070728283", "device_id": "DEV-JO-206207", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["الاستعلام عن الحسابات", "فتح حسابات جديدة"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 2000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-087",
+      "personal_info": { "first_name": "سيرين", "last_name": "العموش", "national_id": "198909186789", "date_of_birth": "1989-09-18", "gender": "أنثى", "contact": { "email": "sereen.amoush@jordanbk.jo", "phone": "+962798665544", "address": "شارع الكلية العلمية الإسلامية", "branch_city": "عمان" } },
+      "employment_details": { "department": "الموارد البشرية", "position": "مسؤول تعويضات ومزايا", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2014-11-11", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000008787181839394", "device_id": "DEV-JO-208209", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["إدارة نظام الرواتب", "تحليل بيانات السوق"], "services_access": [], "approval_limits": { "transaction_approval": 0, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-088",
+      "personal_info": { "first_name": "رائد", "last_name": "الداوود", "national_id": "199312127890", "date_of_birth": "1993-12-12", "gender": "ذكر", "contact": { "email": "raed.daoud@jordanbk.jo", "phone": "+962788665544", "address": "شارع ابن خلدون", "branch_city": "عمان" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف أول", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2018-08-18", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000008888292940405", "device_id": "DEV-JO-210211", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية", "الاستعلام عن الرصيد"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 20000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-089",
+      "personal_info": { "first_name": "دانيا", "last_name": "العرموطي", "national_id": "198103108901", "date_of_birth": "1981-03-10", "gender": "أنثى", "contact": { "email": "dania.armouti@jordanbk.jo", "phone": "+962778665544", "address": "شارع الملكة دينا", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مدير فرع", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2007-06-06", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000008989303051516", "device_id": "DEV-JO-212213", "customer_segment": "الأفراد والشركات الصغيرة" },
+      "permissions": { "system_access": ["إدارة الحسابات", "الموافقة على القروض"], "services_access": ["حسابات توفير", "قروض شخصية", "تمويل أعمال"], "approval_limits": { "transaction_approval": 50000, "loan_approval": 150000 } },
+      "performance": { "clients_managed": 180, "portfolio_size": 15000000, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-090",
+      "personal_info": { "first_name": "يزيد", "last_name": "جابر", "national_id": "200001209012", "date_of_birth": "2000-01-20", "gender": "ذكر", "contact": { "email": "yazeed.jaber@jordanbk.jo", "phone": "+962798665544", "address": "شارع الجبيهة", "branch_city": "عمان" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2024-04-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009090414162627", "device_id": "DEV-JO-214215", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.1 }
+    },
+    {
+      "id": "EMP-JO-091",
+      "personal_info": { "first_name": "جمانة", "last_name": "الشريف", "national_id": "199205151234", "date_of_birth": "1992-05-15", "gender": "أنثى", "contact": { "email": "jumana.sharif@jordanbk.jo", "phone": "+962788554433", "address": "شارع إربد", "branch_city": "جرش" } },
+      "employment_details": { "department": "خدمة العملاء", "position": "مشرف مركز الاتصال", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2017-03-20", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009191525273738", "device_id": "DEV-JO-216217", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["مراقبة المكالمات", "حل الشكاوى المتصاعدة"], "services_access": ["جميع خدمات الأفراد"], "approval_limits": { "transaction_approval": 5000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-092",
+      "personal_info": { "first_name": "أنس", "last_name": "حجازي", "national_id": "199602022345", "date_of_birth": "1996-02-02", "gender": "ذكر", "contact": { "email": "anas.hejazi@jordanbk.jo", "phone": "+962798554433", "address": "شارع الهاشمي", "branch_city": "إربد" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "إربد", "management_level": "موظف تنفيذي", "hire_date": "2021-08-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009292636384849", "device_id": "DEV-JO-218219", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.5 }
+    },
+    {
+      "id": "EMP-JO-093",
+      "personal_info": { "first_name": "رشا", "last_name": "قويدر", "national_id": "198708103456", "date_of_birth": "1987-08-10", "gender": "أنثى", "contact": { "email": "rasha.quider@jordanbk.jo", "phone": "+962778554433", "address": "شارع المدينة الطبية", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مسؤول علاقات عملاء أول", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2012-07-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009393747495950", "device_id": "DEV-JO-220221", "customer_segment": "عملاء مميزون" },
+      "permissions": { "system_access": ["فتح حسابات", "معالجة طلبات القروض المعقدة"], "services_access": ["حسابات توفير", "قروض شخصية", "بطاقات ائتمانية"], "approval_limits": { "transaction_approval": 30000, "loan_approval": 30000 } },
+      "performance": { "clients_managed": 330, "portfolio_size": 7000000, "customer_satisfaction": 4.9 }
+    },
+    {
+      "id": "EMP-JO-094",
+      "personal_info": { "first_name": "أشرف", "last_name": "العزام", "national_id": "198104044567", "date_of_birth": "1981-04-04", "gender": "ذكر", "contact": { "email": "ashraf.azzam@jordanbk.jo", "phone": "+962798554433", "address": "شارع الملكة رانيا", "branch_city": "عمان" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "مدير فرع", "branch_location": "عمان", "management_level": "الإدارة الوسطى", "hire_date": "2006-03-03", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009494858506061", "device_id": "DEV-JO-222223", "customer_segment": "الأفراد والشركات الصغيرة" },
+      "permissions": { "system_access": ["إدارة الحسابات", "الموافقة على القروض"], "services_access": ["حسابات توفير", "قروض شخصية", "تمويل أعمال"], "approval_limits": { "transaction_approval": 50000, "loan_approval": 150000 } },
+      "performance": { "clients_managed": 175, "portfolio_size": 14500000, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-095",
+      "personal_info": { "first_name": "زينة", "last_name": "جردانة", "national_id": "199607205678", "date_of_birth": "1996-07-20", "gender": "أنثى", "contact": { "email": "zeina.jardaneh@jordanbk.jo", "phone": "+962788554433", "address": "شارع الأمير محمد", "branch_city": "عمان" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2020-09-25", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009595969617172", "device_id": "DEV-JO-224225", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.6 }
+    },
+    {
+      "id": "EMP-JO-096",
+      "personal_info": { "first_name": "أيهم", "last_name": "الشناق", "national_id": "199801156789", "date_of_birth": "1998-01-15", "gender": "ذكر", "contact": { "email": "ayham.shannaq@jordanbk.jo", "phone": "+962778554433", "address": "شارع الاستقلال", "branch_city": "الزرقاء" } },
+      "employment_details": { "department": "خدمة العملاء", "position": "مسؤول خدمة عملاء", "branch_location": "الزرقاء", "management_level": "موظف تنفيذي", "hire_date": "2022-10-10", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009696070728283", "device_id": "DEV-JO-226227", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["الاستعلام عن الحسابات", "فتح حسابات جديدة"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 2000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.4 }
+    },
+    {
+      "id": "EMP-JO-097",
+      "personal_info": { "first_name": "نانسي", "last_name": "الخطيب", "national_id": "198802287890", "date_of_birth": "1988-02-28", "gender": "أنثى", "contact": { "email": "nancy.khatib@jordanbk.jo", "phone": "+962798554433", "address": "شارع عجلون", "branch_city": "عجلون" } },
+      "employment_details": { "department": "إدارة الفروع", "position": "نائب مدير فرع", "branch_location": "عجلون", "management_level": "الإدارة الوسطى", "hire_date": "2013-01-13", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009797181839394", "device_id": "DEV-JO-228229", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["مراجعة المعاملات", "إدارة عمليات الفرع"], "services_access": ["حسابات توفير", "قروض شخصية"], "approval_limits": { "transaction_approval": 60000, "loan_approval": 60000 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-098",
+      "personal_info": { "first_name": "محمود", "last_name": "الحداد", "national_id": "199407078901", "date_of_birth": "1994-07-07", "gender": "ذكر", "contact": { "email": "mahmoud.hadad@jordanbk.jo", "phone": "+962788554433", "address": "شارع وادي السير", "branch_city": "عمان" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف أول", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2018-06-18", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009898292940405", "device_id": "DEV-JO-230231", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية", "الاستعلام عن الرصيد"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 20000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.7 }
+    },
+    {
+      "id": "EMP-JO-099",
+      "personal_info": { "first_name": "صفاء", "last_name": "الطباع", "national_id": "198208159012", "date_of_birth": "1982-08-15", "gender": "أنثى", "contact": { "email": "safaa.tabbaa@jordanbk.jo", "phone": "+962778554433", "address": "شارع الملك عبدالله الثاني", "branch_city": "عمان" } },
+      "employment_details": { "department": "العمليات المركزية", "position": "مدير إدارة البطاقات", "branch_location": "عمان", "management_level": "الإدارة العليا", "hire_date": "2008-08-08", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000009999303051516", "device_id": "DEV-JO-232233", "customer_segment": "داخلي" },
+      "permissions": { "system_access": ["إدارة نظام البطاقات", "الموافقة على التسويات"], "services_access": ["بطاقات ائتمانية", "بطاقات خصم مباشر"], "approval_limits": { "transaction_approval": 200000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.8 }
+    },
+    {
+      "id": "EMP-JO-100",
+      "personal_info": { "first_name": "خليل", "last_name": "الرفاعي", "national_id": "199805251234", "date_of_birth": "1998-05-25", "gender": "ذكر", "contact": { "email": "khalil.rifai@jordanbk.jo", "phone": "+962798554433", "address": "شارع ياجوز", "branch_city": "عمان" } },
+      "employment_details": { "department": "العمليات المصرفية", "position": "صراف", "branch_location": "عمان", "management_level": "موظف تنفيذي", "hire_date": "2023-02-01", "employment_type": "دوام كامل", "status": "نشط", "salary_currency": "دينار أردني", "bank_account": "JO94BJOR0010000001010414162627", "device_id": "DEV-JO-234235", "customer_segment": "الأفراد" },
+      "permissions": { "system_access": ["معالجة المعاملات النقدية"], "services_access": ["حسابات توفير", "حسابات جارية"], "approval_limits": { "transaction_approval": 15000, "loan_approval": 0 } },
+      "performance": { "clients_managed": 0, "portfolio_size": 0, "customer_satisfaction": 4.4 }
+    }
+  ]
+}

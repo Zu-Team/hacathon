@@ -1,0 +1,186 @@
+[
+  {
+    "id": "CUST001",
+    "name": "John Smith",
+    "segment": "Premium",
+    "consent": true,
+    "account_balance": 125000.50,
+    "monthly_income": 8500.00,
+    "spend_categories": {
+      "travel": 2500.00,
+      "shopping": 1800.00,
+      "groceries": 600.00,
+      "bills": 1200.00,
+      "entertainment": 800.00
+    },
+    "digital_usage": {
+      "app_logins": 45,
+      "notifications_enabled": true
+    },
+    "complaints": 0,
+    "nps": 9,
+    "churn_risk": 0.15,
+    "missed_payments": 0
+  },
+  {
+    "id": "CUST002",
+    "name": "Sarah Johnson",
+    "segment": "Standard",
+    "consent": true,
+    "account_balance": 45000.25,
+    "monthly_income": 5200.00,
+    "spend_categories": {
+      "travel": 800.00,
+      "shopping": 1200.00,
+      "groceries": 400.00,
+      "bills": 900.00,
+      "entertainment": 300.00
+    },
+    "digital_usage": {
+      "app_logins": 28,
+      "notifications_enabled": true
+    },
+    "complaints": 1,
+    "nps": 7,
+    "churn_risk": 0.25,
+    "missed_payments": 0
+  },
+  {
+    "id": "CUST003",
+    "name": "Michael Brown",
+    "segment": "Premium",
+    "consent": true,
+    "account_balance": 250000.00,
+    "monthly_income": 12500.00,
+    "spend_categories": {
+      "travel": 4500.00,
+      "shopping": 2200.00,
+      "groceries": 800.00,
+      "bills": 1800.00,
+      "entertainment": 1200.00
+    },
+    "digital_usage": {
+      "app_logins": 62,
+      "notifications_enabled": true
+    },
+    "complaints": 0,
+    "nps": 10,
+    "churn_risk": 0.10,
+    "missed_payments": 0
+  },
+  {
+    "id": "CUST004",
+    "name": "Emily Davis",
+    "segment": "At-risk",
+    "consent": false,
+    "account_balance": 2500.75,
+    "monthly_income": 2200.00,
+    "spend_categories": {
+      "travel": 200.00,
+      "shopping": 400.00,
+      "groceries": 300.00,
+      "bills": 800.00,
+      "entertainment": 150.00
+    },
+    "digital_usage": {
+      "app_logins": 8,
+      "notifications_enabled": false
+    },
+    "complaints": 3,
+    "nps": 4,
+    "churn_risk": 0.75,
+    "missed_payments": 2
+  },
+  {
+    "id": "CUST005",
+    "name": "David Wilson",
+    "segment": "Premium",
+    "consent": true,
+    "account_balance": 750000.00,
+    "monthly_income": 18500.00,
+    "spend_categories": {
+      "travel": 8000.00,
+      "shopping": 3500.00,
+      "groceries": 1200.00,
+      "bills": 2500.00,
+      "entertainment": 2000.00
+    },
+    "digital_usage": {
+      "app_logins": 78,
+      "notifications_enabled": true
+    },
+    "complaints": 0,
+    "nps": 9,
+    "churn_risk": 0.12,
+    "missed_payments": 0
+  },
+  {
+    "id": "CUST006",
+    "name": "Lisa Garcia",
+    "segment": "Standard",
+    "consent": true,
+    "account_balance": 32000.00,
+    "monthly_income": 4800.00,
+    "spend_categories": {
+      "travel": 600.00,
+      "shopping": 900.00,
+      "groceries": 350.00,
+      "bills": 750.00,
+      "entertainment": 250.00
+    },
+    "digital_usage": {
+      "app_logins": 35,
+      "notifications_enabled": true
+    },
+    "complaints": 0,
+    "nps": 8,
+    "churn_risk": 0.30,
+    "missed_payments": 0
+  },
+  {
+    "id": "CUST007",
+    "name": "Robert Chen",
+    "segment": "At-risk",
+    "consent": false,
+    "account_balance": 8500.00,
+    "monthly_income": 3800.00,
+    "spend_categories": {
+      "travel": 300.00,
+      "shopping": 600.00,
+      "groceries": 280.00,
+      "bills": 650.00,
+      "entertainment": 200.00
+    },
+    "digital_usage": {
+      "app_logins": 12,
+      "notifications_enabled": false
+    },
+    "complaints": 2,
+    "nps": 5,
+    "churn_risk": 0.65,
+    "missed_payments": 1
+  },
+  {
+    "id": "CUST008",
+    "name": "Jennifer Taylor",
+    "segment": "Premium",
+    "consent": true,
+    "account_balance": 180000.00,
+    "monthly_income": 9800.00,
+    "spend_categories": {
+      "travel": 3200.00,
+      "shopping": 1900.00,
+      "groceries": 700.00,
+      "bills": 1400.00,
+      "entertainment": 900.00
+    },
+    "digital_usage": {
+      "app_logins": 52,
+      "notifications_enabled": true
+    },
+    "complaints": 0,
+    "nps": 9,
+    "churn_risk": 0.18,
+    "missed_payments": 0
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "id": "COMP001",
+    "type": "transaction",
+    "timestamp": "2024-01-15T08:15:00Z",
+    "amount": 125000.00,
+    "description": "Large transaction to offshore account - AML screening triggered",
+    "risk_score": 8.2,
+    "compliance_checks": {
+      "aml_score": 8.5,
+      "kyc_status": "verified",
+      "gdpr_compliance": true,
+      "pci_dss_flag": false,
+      "suspicious_pattern": true
+    },
+    "country": "Cayman Islands",
+    "customer_id": "CUST001",
+    "entity_type": "Individual",
+    "audit_status": "warning"
+  },
+  {
+    "id": "COMP002",
+    "type": "document",
+    "timestamp": "2024-01-14T14:30:00Z",
+    "description": "Customer KYC documents expired - renewal required",
+    "risk_score": 6.5,
+    "compliance_checks": {
+      "aml_score": 3.2,
+      "kyc_status": "expired",
+      "gdpr_compliance": true,
+      "pci_dss_flag": false,
+      "suspicious_pattern": false
+    },
+    "customer_id": "CUST003",
+    "entity_type": "Individual",
+    "audit_status": "warning"
+  },
+  {
+    "id": "COMP003",
+    "type": "customer",
+    "timestamp": "2024-01-13T11:20:00Z",
+    "description": "High-risk customer onboarding - enhanced due diligence required",
+    "risk_score": 7.8,
+    "compliance_checks": {
+      "aml_score": 7.5,
+      "kyc_status": "verified",
+      "gdpr_compliance": true,
+      "pci_dss_flag": false,
+      "suspicious_pattern": false
+    },
+    "country": "Nigeria",
+    "customer_id": "CUST005",
+    "entity_type": "Corporate",
+    "audit_status": "warning"
+  },
+  {
+    "id": "COMP004",
+    "type": "communication",
+    "timestamp": "2024-01-12T16:45:00Z",
+    "description": "Customer data breach notification - GDPR compliance check",
+    "risk_score": 9.1,
+    "compliance_checks": {
+      "aml_score": 2.1,
+      "kyc_status": "verified",
+      "gdpr_compliance": false,
+      "pci_dss_flag": true,
+      "suspicious_pattern": false
+    },
+    "customer_id": "CUST002",
+    "entity_type": "Individual",
+    "audit_status": "violation"
+  },
+  {
+    "id": "COMP005",
+    "type": "transaction",
+    "timestamp": "2024-01-11T09:30:00Z",
+    "amount": 75000.00,
+    "description": "Multiple transactions below reporting threshold - structuring pattern detected",
+    "risk_score": 6.8,
+    "compliance_checks": {
+      "aml_score": 6.9,
+      "kyc_status": "verified",
+      "gdpr_compliance": true,
+      "pci_dss_flag": false,
+      "suspicious_pattern": true
+    },
+    "country": "United States",
+    "customer_id": "CUST004",
+    "entity_type": "Individual",
+    "audit_status": "warning"
+  },
+  {
+    "id": "COMP006",
+    "type": "document",
+    "timestamp": "2024-01-10T13:15:00Z",
+    "description": "Corporate client documentation incomplete - beneficial ownership unclear",
+    "risk_score": 5.2,
+    "compliance_checks": {
+      "aml_score": 5.5,
+      "kyc_status": "unverified",
+      "gdpr_compliance": true,
+      "pci_dss_flag": false,
+      "suspicious_pattern": false
+    },
+    "country": "Panama",
+    "customer_id": "CUST007",
+    "entity_type": "Corporate",
+    "audit_status": "warning"
+  },
+  {
+    "id": "COMP007",
+    "type": "customer",
+    "timestamp": "2024-01-09T10:20:00Z",
+    "description": "PEP (Politically Exposed Person) identification - enhanced monitoring required",
+    "risk_score": 7.5,
+    "compliance_checks": {
+      "aml_score": 7.8,
+      "kyc_status": "verified",
+      "gdpr_compliance": true,
+      "pci_dss_flag": false,
+      "suspicious_pattern": false
+    },
+    "country": "Russia",
+    "customer_id": "CUST008",
+    "entity_type": "Individual",
+    "audit_status": "warning"
+  },
+  {
+    "id": "COMP008",
+    "type": "communication",
+    "timestamp": "2024-01-08T15:30:00Z",
+    "description": "Unauthorized data access attempt - security incident logged",
+    "risk_score": 8.9,
+    "compliance_checks": {
+      "aml_score": 1.5,
+      "kyc_status": "verified",
+      "gdpr_compliance": false,
+      "pci_dss_flag": true,
+      "suspicious_pattern": true
+    },
+    "customer_id": "CUST006",
+    "entity_type": "Individual",
+    "audit_status": "violation"
+  }
+]

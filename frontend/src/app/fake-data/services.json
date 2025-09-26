@@ -1,0 +1,163 @@
+[
+  {
+    "id": "SVC001",
+    "title": "Employee 360 & Decisions",
+    "summary": "Comprehensive employee performance analytics with AI-driven insights for talent management and strategic HR decisions.",
+    "category": "HR & Talent Management",
+    "icon": "👥",
+    "status": "Active",
+    "implementationDate": "2023-06-15",
+    "usage": 95,
+    "satisfaction": 4.7,
+    "features": [
+      "Performance Analytics",
+      "Talent Management",
+      "HR Decision Support",
+      "Predictive Insights"
+    ],
+    "benefits": [
+      "Reduces employee turnover by 25-40%",
+      "Improves promotion accuracy",
+      "Enables data-driven talent acquisition",
+      "Increases employee satisfaction"
+    ]
+  },
+  {
+    "id": "SVC002",
+    "title": "Customer 360 & Next Best Action",
+    "summary": "Unified customer intelligence platform that predicts customer needs and recommends optimal engagement strategies.",
+    "category": "Customer Experience",
+    "icon": "🎯",
+    "status": "Active",
+    "implementationDate": "2023-08-20",
+    "usage": 88,
+    "satisfaction": 4.5,
+    "features": [
+      "Customer Analytics",
+      "Predictive Modeling",
+      "Personalized Recommendations",
+      "Engagement Optimization"
+    ],
+    "benefits": [
+      "Increases customer lifetime value by 30-50%",
+      "Reduces customer churn by 20-35%",
+      "Improves cross-sell success rates",
+      "Enhances customer satisfaction"
+    ]
+  },
+  {
+    "id": "SVC003",
+    "title": "Intelligent Compliance & Risk Management",
+    "summary": "Automated regulatory compliance monitoring and risk assessment with real-time alerts and mitigation strategies.",
+    "category": "Risk & Compliance",
+    "icon": "🛡️",
+    "status": "Active",
+    "implementationDate": "2023-05-10",
+    "usage": 92,
+    "satisfaction": 4.8,
+    "features": [
+      "Real-time Monitoring",
+      "Automated Alerts",
+      "Risk Assessment",
+      "Compliance Reporting"
+    ],
+    "benefits": [
+      "Reduces compliance costs by 40-60%",
+      "Minimizes regulatory fines",
+      "Improves audit efficiency",
+      "Enhances risk visibility"
+    ]
+  },
+  {
+    "id": "SVC004",
+    "title": "Hyper-Personalized Financial Products",
+    "summary": "AI-powered product recommendations and personalized financial solutions tailored to individual customer profiles.",
+    "category": "Product Development",
+    "icon": "💎",
+    "status": "Active",
+    "implementationDate": "2023-09-05",
+    "usage": 76,
+    "satisfaction": 4.3,
+    "features": [
+      "Product Matching",
+      "Personalized Pricing",
+      "Risk Assessment",
+      "Targeted Offers"
+    ],
+    "benefits": [
+      "Increases product adoption by 35-55%",
+      "Improves customer engagement",
+      "Reduces default rates by 20-30%",
+      "Enhances revenue per customer"
+    ]
+  },
+  {
+    "id": "SVC005",
+    "title": "Smart Efficiency & Task Automation",
+    "summary": "Smart automation of routine processes and optimization of operational workflows for maximum efficiency.",
+    "category": "Operations",
+    "icon": "⚙️",
+    "status": "Active",
+    "implementationDate": "2023-07-12",
+    "usage": 83,
+    "satisfaction": 4.6,
+    "features": [
+      "Process Automation",
+      "Workflow Optimization",
+      "Resource Allocation",
+      "Performance Monitoring"
+    ],
+    "benefits": [
+      "Reduces operational costs by 25-45%",
+      "Improves process efficiency",
+      "Eliminates human errors by 90%+",
+      "Enables strategic focus"
+    ]
+  },
+  {
+    "id": "SVC006",
+    "title": "Predictive Market Analysis",
+    "summary": "Advanced market intelligence and investment opportunity identification using real-time data and predictive analytics.",
+    "category": "Investment & Trading",
+    "icon": "📈",
+    "status": "Active",
+    "implementationDate": "2023-10-01",
+    "usage": 67,
+    "satisfaction": 4.4,
+    "features": [
+      "Market Analysis",
+      "Investment Opportunities",
+      "Risk Assessment",
+      "Portfolio Optimization"
+    ],
+    "benefits": [
+      "Improves investment returns by 15-25%",
+      "Reduces portfolio risk",
+      "Enables faster opportunity identification",
+      "Provides competitive advantage"
+    ]
+  },
+  {
+    "id": "SVC007",
+    "title": "AI-Driven Product Innovation",
+    "summary": "Intelligent product innovation and development using customer insights and market analysis to create winning financial solutions.",
+    "category": "Innovation",
+    "icon": "🚀",
+    "status": "Active",
+    "implementationDate": "2023-11-15",
+    "usage": 54,
+    "satisfaction": 4.2,
+    "features": [
+      "Product Development",
+      "Market Analysis",
+      "Customer Insights",
+      "Innovation Lab"
+    ],
+    "benefits": [
+      "Reduces development time by 40-60%",
+      "Increases product success rates",
+      "Enhances competitive positioning",
+      "Improves customer satisfaction"
+    ]
+  }
+]
