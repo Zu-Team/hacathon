@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Copy of Copy of Gemini OS SAMI",
+  "description": "Simulate a computer with a UI that is generated dynamically from user interactions.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}
